@@ -29,6 +29,9 @@ All tools developed in the GMS GitHub should be versioned and regular [releases]
 
 Versioning of releases is enocuraged to follow [Semantic Versioning](https://semver.org/). 
 
+### CI/CD actions
+For now the GMS GitHub only have access to 2000 minutes for GitHub actions per month. Once the are used up there are no additional resources for this. Due to this we encourage developers to be considerate in which automations are set up.
+
 ### Non-used repositories
 If there are repos which are no longer maintained, they should be archived. Reach out to one of the [owners of the GitHub organisation](https://github.com/orgs/genomic-medicine-sweden/people?query=role%3Aowner) if you have such a repo.
 

@@ -11,6 +11,9 @@ This GitHub organisation is the shared resources used by all participating devel
 
 <details>
 <summary><h2>Developer guidelines</h2></summary>
+
+### Who can add new code/repos
+All members of GMS are free to use the GMS GitHub organisation to add new code, technical documentaion or anothe shared resources. We do ask that you as a developer adhead to the guidlines found below. If you are unsure about how to set things up, feel free to reach out to one of the [owners of the GitHub organisation](https://github.com/orgs/genomic-medicine-sweden/people?query=role%3Aowner).
   
 ### Creating new repositories
 Since the repositories at the GMS GitHub is for all members, it is important that all new repos are created with verbose information about the intent of the repository and how the content should be used. A good reference for creating excellent technical documentation can be found in the various nf-core GitHub repositories, e.g. [Sarek](https://github.com/nf-core/sarek).
@@ -20,4 +23,13 @@ New repositories should be created with branch protection at least for the main 
 
 ### Code Owners
 All repositories should have a maintained [Code Owners file](https://docs.github.com/en/enterprise-server@3.10/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners). The Code Owners can be individuals, but a preferred way is to set up a develop team and have them all be maintainers and Code Owners of a given repo. An example of this is the [@jasen-devs team](https://github.com/orgs/genomic-medicine-sweden/teams/jasen-devs) and the [JASEN Code Owners](https://github.com/genomic-medicine-sweden/jasen/blob/master/.github/CODEOWNERS).
+
+### Versioning
+All tools developed in the GMS GitHub should be versioned and regular [releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) (with verbose release notes) should be created. This help users to deploy stable version of the tools.
+
+Versioning of releases is enocuraged to follow [Semantic Versioning](https://semver.org/). 
+
+### Non-used repositories
+If there are repos which are no longer maintained, they should be archived. Reach out to one of the [owners of the GitHub organisation](https://github.com/orgs/genomic-medicine-sweden/people?query=role%3Aowner) if you have such a repo.
+
 </details>

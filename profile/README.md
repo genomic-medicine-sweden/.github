@@ -24,6 +24,8 @@ New repositories should be created with branch protection at least for the main 
 ### Code Owners
 All repositories should have a maintained [Code Owners file](https://docs.github.com/en/enterprise-server@3.10/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners). The Code Owners can be individuals, but a preferred way is to set up a develop team and have them all be maintainers and Code Owners of a given repo. An example of this is the [@jasen-devs team](https://github.com/orgs/genomic-medicine-sweden/teams/jasen-devs) and the [JASEN Code Owners](https://github.com/genomic-medicine-sweden/jasen/blob/master/.github/CODEOWNERS).
 
+The developers team should be maintained to ensure that there are active developers for each GMS repository. This will ensure that it is easy to get a hold of a developer if there are questions or if there a bugs/errors which need to be adressed. 
+
 ### Versioning
 All tools developed in the GMS GitHub should be versioned and regular [releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) (with verbose release notes) should be created. This help users to deploy stable version of the tools.
 

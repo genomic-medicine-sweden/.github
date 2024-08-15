@@ -13,7 +13,7 @@ This GitHub organisation is the shared resources used by all participating devel
 <summary><h2>Developer guidelines</h2></summary>
 
 ### Who can add new code/repos
-All members of GMS are free to use the GMS GitHub organisation to add new code, technical documentaion or anothe shared resources. We do ask that you as a developer adhead to the guidlines found below. If you are unsure about how to set things up, feel free to reach out to one of the [owners of the GitHub organisation](https://github.com/orgs/genomic-medicine-sweden/people?query=role%3Aowner).
+All members of GMS are free to use the GMS GitHub organisation to add new code, technical documentaion or and other shared resources. We do ask that you as a developer adhead to the guidlines found below. If you are unsure about how to set things up, feel free to reach out to one of the [owners of the GitHub organisation](https://github.com/orgs/genomic-medicine-sweden/people?query=role%3Aowner).
   
 ### Creating new repositories
 Since the repositories at the GMS GitHub is for all members, it is important that all new repos are created with verbose information about the intent of the repository and how the content should be used. A good reference for creating excellent technical documentation can be found in the various nf-core GitHub repositories, e.g. [Sarek](https://github.com/nf-core/sarek).

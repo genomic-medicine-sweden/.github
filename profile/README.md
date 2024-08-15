@@ -31,7 +31,7 @@ All tools developed in the GMS GitHub should be versioned and regular [releases]
 
 Versioning of releases is enocuraged to follow [Semantic Versioning](https://semver.org/). 
 
-### CI/CD actions
+### Action workflows
 For now the GMS GitHub only have access to 2000 minutes for GitHub actions per month. Once the are used up there are no additional resources for this. Due to this we encourage developers to be considerate in which automations are set up.
 
 One should also be aware that github actions in repositories which have no commits in the last 60 days will be deactivated. This is a feature of GitHub and there is no possibility to turn this off. A work around is to use the keep-alive action which adds a keep alive ocmmit every 59 days: https://github.com/marketplace/actions/keepalive-workflow 
